@@ -42,14 +42,14 @@ await BMGApiMapper.scanApi(app);
 ```
 http://localhost:3000/api-document-html
 ```
-![Table format](html.png)
+![Table format](https://raw.githubusercontent.com/bm-jack-tran/bmg-api-mapper/main/html.png)
 
 1. Get detail in JSON
 
 ```
 http://localhost:3000/api-document-json
 ```
-![Json format](json.png)
+![Json format](https://raw.githubusercontent.com/bm-jack-tran/bmg-api-mapper/main/json.png)
 
 ## Author
 ```Jack Tran BMG```
