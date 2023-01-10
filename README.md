@@ -28,7 +28,7 @@
 
 1. Install package
 ```bash
-npm install @brickmate/api-mapper
+npm i --save-dev get-function-location @brickmate/api-mapper
 ```
 
 2. Emplement
