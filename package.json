@@ -1,6 +1,6 @@
 {
   "name": "@brickmate/api-mapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Brickmate Group - Api Mapper",
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -13,5 +13,9 @@
     "@types/node": "^18.11.18",
     "get-function-location": "^2.0.0",
     "typescript": "^4.9.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bm-jack-tran/bmg-api-mapper.git"
   }
 }
