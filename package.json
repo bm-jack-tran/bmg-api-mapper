@@ -1,6 +1,6 @@
 {
   "name": "@brickmate/api-mapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Brickmate Group - Api Mapper",
   "scripts": {
     "build": "tsc -p tsconfig.json",
