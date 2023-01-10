@@ -2,9 +2,9 @@
 
 ## Description
 
-> This package is write for help developer generate api mapper in table format.
+> This package is writen for help developer generate api map in table format.
 > 
-> It is use for develop environment only and use with NestJS only.
+> It is used for develop environment only and use with NestJS only.
 > 
 > When you update source code, it will generate instantly.
 > 
@@ -13,8 +13,11 @@
 
 ## Requirements
 
-> NestJS<br>
-> Webpack disable in nest-cli.json
+> get-function-location
+> 
+> NestJS
+> 
+> Disable webpack in nest-cli.json
 ```
   {
     ...
@@ -32,10 +35,26 @@ npm i --save-dev get-function-location @brickmate/api-mapper
 ```
 
 2. Emplement
-  File `src/main.ts`
+  
+> Edit file `src/main.ts`
 
-```javascript
-await BMGApiMapper.scanApi(app);
+```typescript
+import { BMGApiMapper } from '@brickmate/api-mapper';
+
+async function bootstrap() {
+
+  ...
+
+  if (process.env.NODE_ENV === 'development') {
+
+    ...
+
+    await BMGApiMapper.scanApi(app);
+    
+  }
+
+  ...
+}
 ```
 3. Get report in table format
 
